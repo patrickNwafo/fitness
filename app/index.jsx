@@ -7,13 +7,6 @@ import { ScrollView } from 'react-native'
 
 export default function App() {
     return (
-        // <View className=" flex-1 items-center justify-center">
-        //     <Text className="text-4xl font-bold">Fitness</Text>
-        //     <StatusBar style='auto' />
-        //     <Link href="/home" className='text-2xl text-blue-600'>
-        //         Log In!
-        //     </Link>
-        // </View>
         <SafeAreaView className=" bg-blue-950 h-full">
             <ScrollView contentContainerStyle={{ height: '100%' }}>
                 <View className="flex-1 items-center justify-center">
